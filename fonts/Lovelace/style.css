@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Lovelace';
+    src: local('Lovelace Regular'), local('Lovelace-Regular'),
+        url('Lovelace-Regular.woff2') format('woff2'),
+        url('Lovelace-Regular.woff') format('woff'),
+        url('Lovelace-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
