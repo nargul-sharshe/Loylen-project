@@ -25,7 +25,9 @@ body {
 .second-color {
     color:#FFFFFF;
 }
-
+.bckg-color {
+   background-color:#EEEEEE;
+}
 
 
 
@@ -172,7 +174,7 @@ body {
 }
 
 .ctl {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .itm-ttl {
     text-decoration: none;
@@ -198,11 +200,11 @@ body {
 
 .product-drop ul {
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 30px;
-    padding-top: 30px;
+    gap: 26px;
+    padding-top: 10px;
     padding-right: 40px;
+    margin-bottom: 5px;
 }
 .product-drop ul li {
     list-style: none;
@@ -211,43 +213,75 @@ body {
     text-decoration: none;
     list-style: none;
     color:#474A51;
-    padding-bottom: 40px;
+    margin-right: 10px;
 }
 
 .size {
     text-decoration: none;
     color:#474A51;
-    font-size: 16px;
+    font-size: 16px; 
 }
 .size:hover {
     background-color:#474A51;
     color: #FFFFFF;
 }
 
-.product-drop {
-    display:none;
-}
-.product:hover .product-drop{
-    display: block;
+ .product-drop{
+    display: none;
     position: absolute;
-    height: 100px;
+    height: 70px;
     width:407px;
-    left: 4px;
-    bottom: 80px;
+    left: 4.6px;
+    bottom: 69px;
     transition: .3s;
-    color: #474A51;
-   
+    background-color: hsl(214, 58%, 92%, 0.3);
 }
 
-.product:hover .product-drop:before {
+.product:hover .product-drop {
     display: block;
-    position: absolute;
-    content:"";
-    height: 90px;
-    width:407px;
-    /* left: 0px; */
-    background-color:#DDE8F6;
-    opacity: 0.5;
-    bottom: 0px;
-    transition: .3s;
+    box-shadow: 0px 20px 15px -5px #adb0b9;
+}
+
+.btn-catalog {
+    display: block;
+    max-width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    color: #43464d;
+    background-color: transparent;
+    border-radius: 0px;
+    border-color: #43464d;
+    border-width: 1px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.btn-catalog:hover {
+    background-color: #DDE8F6;
+}
+
+#lookbook
+
+.lookbook-text {
+    margin-top: 300px; 
+}
+
+.btn-lookbook {
+    display: block;
+    max-width: 170px;
+    height: 50px;
+    margin: 0 auto;
+    color: #43464d;
+    background-color: transparent;
+    border-radius: 0px;
+    border-color: #43464d;
+    border-width: 1px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.lookbook {
+    margin-right: -6px;
 }
