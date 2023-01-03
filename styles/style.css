@@ -261,27 +261,56 @@ body {
     background-color: #DDE8F6;
 }
 
-#lookbook
+/* lookbook */
 
+.row {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
 .lookbook-text {
-    margin-top: 300px; 
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.lkb {
+    margin-left: 100px;
 }
 
 .btn-lookbook {
     display: block;
     max-width: 170px;
     height: 50px;
-    margin: 0 auto;
     color: #43464d;
     background-color: transparent;
     border-radius: 0px;
     border-color: #43464d;
     border-width: 1px;
-    margin-top: 50px;
-    margin-bottom: 100px;
     font-size: 18px;
     letter-spacing: 2px;
+    margin-left: 100px;
+    margin-top: 50px;
 }
 .lookbook {
     margin-right: -6px;
+}
+
+/* footer */
+
+.ft-container {
+    margin-top: 200px;
+    height: 556px;
+}
+.footer {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.footer ul li {
+    list-style: none;
+    text-decoration: none;
+}
+.footer img {
+    margin-left: 30px
+}
+.footer-span {
+    font-size: 26px;
 }
