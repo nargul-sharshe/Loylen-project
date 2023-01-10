@@ -170,7 +170,8 @@ body {
 /* catalog */
 
 .catalog-ttl {
-    margin-top: 200px;
+    margin-top: 250px;
+    padding-bottom: 70px;
 }
 
 .ctl {
@@ -231,8 +232,11 @@ body {
     position: absolute;
     height: 70px;
     width:407px;
-    left: 4.6px;
-    bottom: 69px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 70px;
     transition: .3s;
     background-color: hsl(214, 58%, 92%, 0.3);
 }
@@ -346,19 +350,27 @@ body {
     margin-top: 50px;
     font-size: 16px;
     letter-spacing: 1px;
-    margin-top: -2px;
-    margin-left: 50px;
+    margin-top: auto;
+    /* margin-left: 50px; */
 }
 
 .btn-footer:hover {
     background-color: #DDE8F6;
 }
 
-.span-txt {
+.input-ftr {
+    background-color:#EEEEEE;
     margin-left: 140px;
     color: #adb0b9;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 7.5px;
+    size: 10px;
 }
 
+.input-ftr:focus-visible {
+    outline: none;
+}
 .div-ftr {
     margin:40px 0 0 130px;
 }
